@@ -2,9 +2,7 @@
   "name": "@cloudui",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": {},
   "private": true,
   "dependencies": {
     "tslib": "^2.3.0"

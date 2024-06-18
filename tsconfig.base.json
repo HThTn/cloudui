@@ -8,15 +8,17 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es2016",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "CommonJS",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cloudui/test": ["test/src/index.ts"]
-    }
+      "@cloudui/test": ["test/src/index.ts"],
+      "@cloudui/test3": ["test3/src/index.ts"]
+    },
+    "checkJs": true
   },
   "exclude": ["node_modules", "tmp"]
 }
