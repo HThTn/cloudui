@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@cloudui/test": ["test/src/index.ts"],
-      "@cloudui/test3": ["test3/src/index.ts"]
+      "@cloudui/test4": ["test4/src/index.ts"]
     },
     "checkJs": true
   },

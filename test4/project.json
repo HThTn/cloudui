@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "test4",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "test/src",
+  "sourceRoot": "test4/src",
   "projectType": "library",
   "release": {
     "version": {
@@ -11,16 +11,16 @@
       }
     }
   },
-  "tags": [],
+  "tags": ["test"],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/test",
-        "main": "test/src/index.ts",
-        "tsConfig": "test/tsconfig.lib.json",
-        "assets": ["test/*.md"]
+        "outputPath": "dist/test4",
+        "main": "test4/src/index.ts",
+        "tsConfig": "test4/tsconfig.lib.json",
+        "assets": ["test4/*.md"]
       }
     },
     "nx-release-publish": {
