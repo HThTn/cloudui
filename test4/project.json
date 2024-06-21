@@ -1,7 +1,7 @@
 {
   "name": "test4",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "test4/src",
+  "sourceRoot": "test4",
   "projectType": "library",
   "release": {
     "version": {
@@ -18,7 +18,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/test4",
-        "main": "test4/src/index.ts",
+        "main": "test4/index.ts",
         "tsConfig": "test4/tsconfig.lib.json",
         "assets": ["test4/*.md"]
       }
